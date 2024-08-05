@@ -1,28 +1,270 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Sukhjinder Personal Website</title>
-    <link rel="stylesheet" href="index_style.css">
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <header>
-      <h1>Welcome to My Personal Website</h1>
-    </header>
-    <main>
-      <p>This is my personal website where I showcase my work, share my thoughts, and connect with others.</p>
-    </main>
-    <footer>
-      <p>&copy; 2023 My Personal Website</p>
-    </footer>
-  </body>
-</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukhjinder Kumar - HomePage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .subsection {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .date-location {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        .institution {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .project {
+            background-color: #f9f9f9;
+            border-left: 4px solid #3498db;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .project-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 5px;
+        }
+        .tech {
+            background-color: #3498db;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.9em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        .project-description {
+            margin-top: 5px;
+        }
 
+        header {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+          <nav>
+              <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="https://sukhjinderkumar.me/blog/about/">Blog</a></li>
+              </ul>
+          </nav>
+     </header>
+
+    <div class="contact-info">
+      <p> <a href="mailto:sukhjinderkumar007101@gmail.com">sukhjinderkumar007101@gmail.com</a> | +91 9815108722 | <a href="https://www.linkedin.com/in/sukhjinder-kumar">linkedIn/sukhjinder-kumar</a> | <a href="https://github.com/sukhjinder-kumar">github/sukhjinder-kumar</a></p>
+    </div>
+
+    <div class="section">
+        <h2>EDUCATION</h2>
+        <div class="subsection">
+            <p class="job-title">B.Tech (Honors) in Computer Science and Engineering</p>
+            <p class="date-location">Hyderabad, Telangana | 2020 – 2024</p>
+            <p>International Institute of Information Technology, Hyderabad</p>
+            <ul>
+                <li>Teacher Assistant (TA): Real Analysis, Probability and Statistics, Topics in Reinforcement Learning (Head TA)</li>
+                <li>Independent Study: Studied cosmology under Dr. Diganta Das, based on Barbara Ryden's and Andrew Liddle's book.</li>
+                <li>Honors: In optimization under Dr. Pawan Kumar. Studied "Topology and Modern Algebra" by Simmons and worked on min-max optimization problems in generative modeling (such as GANs). I also studied theoretical ML from "Understanding Machine Learning: From Theory to Algorithms" by Shai Shalev-Shwartz and Shai Ben-David. I later changed (honors) to particle physics with Dr. Subhadip Mitra, focusing on the use of deep learning in jet tagging.</li>
+                <li>Coursework: Applied Optimization, Advanced Optimization, Stochastic Processes, Real Analysis, Linear Algebra, Probability and statistics, Complexity Theory, Data Structure and Algorithms, Algorithm Analysis and Design, Statistical methods in AI, Reinforcement Learning, Mathematics of generative models, Quantum Computing</li>
+                <li>CGPA: 8.91 / 10</li>
+            </ul>
+        </div>
+        <div class="subsection">
+            <p class="job-title">Senior Secondary Education</p>
+            <p class="date-location">Kota, Rajasthan | 2018 - 2020</p>
+            <p>Maa Bharti Senior Secondary School</p>
+            <p>Percentage: 96.4%</p>
+        </div>
+        <div class="subsection">
+            <p class="job-title">Matriculation</p>
+            <p class="date-location">Handiaya, Punjab | 2008 - 2018</p>
+            <p>Y.S Public School</p>
+            <p>Percentage: 91.6%</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>WORK EXPERIENCE</h2>
+        <div class="subsection">
+            <p class="job-title">ORACLE | Application Developer</p>
+            <p class="date-location">Hyderabad, Telangana | July'24 – present</p>
+            <ul>
+                <li>Currently undergoing mandated training. Will be joining the Fusion team.</li>
+            </ul>
+        </div>
+        <div class="subsection">
+            <p class="job-title">ORACLE | Application Developer Intern</p>
+            <p class="date-location">Hyderabad, Telangana | May'23 – June'23</p>
+            <ul>
+                <li>Implemented error search functionality to the Becky chatbot. Users can upload an error screenshot, and the bot will read the error message (using vision capabilities) and searches for a solution in the Jira repositories (Natural language processing).</li>
+                <li>I created backend REST APIs using Django and python, and integration into bots' backend was done using Node Js. The connection with Becky bots' frontend was done using Oracle Digital Assistant.</li>
+            </ul>
+        </div>
+        <div class="subsection">
+            <p class="job-title">INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, HYDERABAD | TA</p>
+            <p class="date-location">Hyderabad, Telanagana</p>
+            <ul>
+                <li>Real Analysis (Monsoon'22), under Prof. Siddharta DAs and Prof. Diganta Das.</li>
+                <li>Probability and Statistics (Monsoon'23), under Prof. Tejas Bodas</li>
+                <li>Topics in Reinforcment Learning (Spring'24, Head TA), under Prof. Tejas Bodas</li>
+            </ul>
+        </div>
+        <div class="subsection">
+            <p class="job-title">INDIAN SCHOOL OF BUSINESS | Research Internship</p>
+            <p class="date-location">Hyderabad, Telanagana | Jan'23 – May'23</p>
+            <ul>
+                <li>Worked on geospatial data to figure out the economics of water usage in urban cities of India. Data processing, visualization and analysis was done using Google Earth Engine.</li>
+            </ul>
+        </div>
+        <div class="subsection">
+            <p class="job-title">STARTUPS | Software Engineer</p>
+            <p class="date-location">Virtual, Remote</p>
+            <ul>
+                <li>Worked in Kalzi as a mobile developer, developed an app that enables Gym Trainers to interact with clients. Used React Native along with Firebase, Redux.</li>
+                <li>Worked in TDP Vista as a frontend developer, worked on the front end for an ebook client. Used HTML, CSS, JS, and Bootstrap.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>PROJECTS</h2>
+        <div class="project">
+            <div class="project-title">DESCENT ALGORITHM VIZ</div>
+            <div class="tech-stack">
+                <span class="tech">Python</span>
+                <span class="tech">Streamlit</span>
+                <span class="tech">Matplotlib</span>
+                <span class="tech">Numpy</span>
+                <span class="tech">Optimization Theory</span>
+            </div>
+            <div class="project-description">Gradient Descent Visualizer, made using python and streamlit.</div>
+        </div>
+        <div class="project">
+            <div class="project-title">GANS</div>
+            <div class="tech-stack">
+                <span class="tech">Python</span>
+                <span class="tech">Pytorch</span>
+                <span class="tech">Generative AI</span>
+            </div>
+            <div class="project-description">Codebase of Generative Adversarial Networks using Python and Pytorch library.</div>
+        </div>
+        <div class="project">
+            <div class="project-title">CHECKER GAME</div>
+            <div class="tech-stack">
+                <span class="tech">C</span>
+                <span class="tech">Data Structures</span>
+                <span class="tech">Algorithms</span>
+            </div>
+            <div class="project-description">A Checkers game that uses Data Structures like Heap and Trees for optimization at runtime.</div>
+        </div>
+        <div class="project">
+            <div class="project-title">UNIX SHELL</div>
+            <div class="tech-stack">
+                <span class="tech">C</span>
+                <span class="tech">Operating System</span>
+                <span class="tech">System Calls</span>
+            </div>
+            <div class="project-description">UNIX Bourne Shell Implemented via System Calls in C. It has features like printing user information, doing Builtin Commands with flags like cd, system Commands like emacs, etc, and Running Processes in Foreground or Background.</div>
+        </div>
+        <div class="project">
+            <div class="project-title">FOOD ORDERING PORTAL</div>
+            <div class="tech-stack">
+                <span class="tech">React JS</span>
+                <span class="tech">Node JS</span>
+                <span class="tech">Express JS</span>
+                <span class="tech">Mongo DB</span>
+                <span class="tech">Mongo DB Atlas</span>
+            </div>
+            <div class="project-description">Made a Food Ordering Portal Implemented Using MERN Stack.</div>
+        </div>
+        <div class="project">
+            <div class="project-title">TERMINAL CLASH OF CLANS</div>
+            <div class="tech-stack">
+                <span class="tech">Python</span>
+                <span class="tech">OOP</span>
+            </div>
+            <div class="project-description">Made a Terminal Game using Python and OOPS concepts. Based on the Clash Of Clans mobile game.</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>SKILLS</h2>
+        <p><strong>Languages:</strong> C, C++, Python, Matlab, Java, Bash, SQL, Lua</p>
+        <p><strong>Web Development:</strong> HTML, CSS, Javascript, Bootstrap, React, Node JS, Express JS, NPM, Mongo DB</p>
+        <p><strong>Technology:</strong> Git, Github, AWS, Docker, LaTeX, Unix, Windows, MacOS</p>
+    </div>
+
+    <div class="section">
+        <h2>ACHIEVEMENTS</h2>
+        <ul>
+            <li>In Dean list 1 for the Spring 2022-23, IIITH</li>
+            <li>JEE Main All India Rank 758. 100 percentile in Mathematics section in 1st attempt.</li>
+            <li>JEE Advance All India Rank 1218</li>
+            <li>National Talent Search Examination (NTSE) scholar</li>
+            <li>Appeared for RMO in 8th Grade and qualified for RMO in 12th Grade.</li>
+        </ul>
+    </div>
+</body>
+</html>
