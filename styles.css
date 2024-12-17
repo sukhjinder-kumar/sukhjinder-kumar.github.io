@@ -55,6 +55,17 @@ ul {
     font-weight: bold;
     color: #2c3e50;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.github-link {
+    margin-left: 8px;
+}
+.github-link .icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
 }
 .tech-stack {
     display: flex;
@@ -94,3 +105,4 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
 }
+
